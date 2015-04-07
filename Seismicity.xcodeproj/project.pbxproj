@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14AA41EC1AD3A4EF00AC5003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA41EB1AD3A4EF00AC5003 /* main.m */; };
+		14AA41EF1AD3A4EF00AC5003 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA41EE1AD3A4EF00AC5003 /* AppDelegate.m */; };
+		14AA41F21AD3A4F000AC5003 /* Seismicity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14AA41F01AD3A4F000AC5003 /* Seismicity.xcdatamodeld */; };
+		14AA41F51AD3A4F000AC5003 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA41F41AD3A4F000AC5003 /* ViewController.m */; };
+		14AA41F81AD3A4F000AC5003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AA41F61AD3A4F000AC5003 /* Main.storyboard */; };
+		14AA41FA1AD3A4F100AC5003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AA41F91AD3A4F100AC5003 /* Images.xcassets */; };
+		14AA41FD1AD3A4F100AC5003 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14AA41FB1AD3A4F100AC5003 /* LaunchScreen.xib */; };
+		14AA42091AD3A4F100AC5003 /* SeismicityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA42081AD3A4F100AC5003 /* SeismicityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14AA42031AD3A4F100AC5003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14AA41DE1AD3A4EE00AC5003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14AA41E51AD3A4EF00AC5003;
+			remoteInfo = Seismicity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14AA41E61AD3A4EF00AC5003 /* Seismicity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seismicity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AA41EA1AD3A4EF00AC5003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AA41EB1AD3A4EF00AC5003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14AA41ED1AD3A4EF00AC5003 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14AA41EE1AD3A4EF00AC5003 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14AA41F11AD3A4F000AC5003 /* Seismicity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seismicity.xcdatamodel; sourceTree = "<group>"; };
+		14AA41F31AD3A4F000AC5003 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14AA41F41AD3A4F000AC5003 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14AA41F71AD3A4F000AC5003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14AA41F91AD3A4F100AC5003 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14AA41FC1AD3A4F100AC5003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		14AA42021AD3A4F100AC5003 /* SeismicityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeismicityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AA42071AD3A4F100AC5003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AA42081AD3A4F100AC5003 /* SeismicityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeismicityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14AA41E31AD3A4EF00AC5003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AA41FF1AD3A4F100AC5003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14AA41DD1AD3A4EE00AC5003 = {
+			isa = PBXGroup;
+			children = (
+				14AA41E81AD3A4EF00AC5003 /* Seismicity */,
+				14AA42051AD3A4F100AC5003 /* SeismicityTests */,
+				14AA41E71AD3A4EF00AC5003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14AA41E71AD3A4EF00AC5003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14AA41E61AD3A4EF00AC5003 /* Seismicity.app */,
+				14AA42021AD3A4F100AC5003 /* SeismicityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14AA41E81AD3A4EF00AC5003 /* Seismicity */ = {
+			isa = PBXGroup;
+			children = (
+				14AA41ED1AD3A4EF00AC5003 /* AppDelegate.h */,
+				14AA41EE1AD3A4EF00AC5003 /* AppDelegate.m */,
+				14AA41F31AD3A4F000AC5003 /* ViewController.h */,
+				14AA41F41AD3A4F000AC5003 /* ViewController.m */,
+				14AA41F61AD3A4F000AC5003 /* Main.storyboard */,
+				14AA41F91AD3A4F100AC5003 /* Images.xcassets */,
+				14AA41FB1AD3A4F100AC5003 /* LaunchScreen.xib */,
+				14AA41F01AD3A4F000AC5003 /* Seismicity.xcdatamodeld */,
+				14AA41E91AD3A4EF00AC5003 /* Supporting Files */,
+			);
+			path = Seismicity;
+			sourceTree = "<group>";
+		};
+		14AA41E91AD3A4EF00AC5003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14AA41EA1AD3A4EF00AC5003 /* Info.plist */,
+				14AA41EB1AD3A4EF00AC5003 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14AA42051AD3A4F100AC5003 /* SeismicityTests */ = {
+			isa = PBXGroup;
+			children = (
+				14AA42081AD3A4F100AC5003 /* SeismicityTests.m */,
+				14AA42061AD3A4F100AC5003 /* Supporting Files */,
+			);
+			path = SeismicityTests;
+			sourceTree = "<group>";
+		};
+		14AA42061AD3A4F100AC5003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14AA42071AD3A4F100AC5003 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14AA41E51AD3A4EF00AC5003 /* Seismicity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AA420C1AD3A4F200AC5003 /* Build configuration list for PBXNativeTarget "Seismicity" */;
+			buildPhases = (
+				14AA41E21AD3A4EF00AC5003 /* Sources */,
+				14AA41E31AD3A4EF00AC5003 /* Frameworks */,
+				14AA41E41AD3A4EF00AC5003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seismicity;
+			productName = Seismicity;
+			productReference = 14AA41E61AD3A4EF00AC5003 /* Seismicity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14AA42011AD3A4F100AC5003 /* SeismicityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AA420F1AD3A4F200AC5003 /* Build configuration list for PBXNativeTarget "SeismicityTests" */;
+			buildPhases = (
+				14AA41FE1AD3A4F100AC5003 /* Sources */,
+				14AA41FF1AD3A4F100AC5003 /* Frameworks */,
+				14AA42001AD3A4F100AC5003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14AA42041AD3A4F100AC5003 /* PBXTargetDependency */,
+			);
+			name = SeismicityTests;
+			productName = SeismicityTests;
+			productReference = 14AA42021AD3A4F100AC5003 /* SeismicityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14AA41DE1AD3A4EE00AC5003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Zachary Hamblen";
+				TargetAttributes = {
+					14AA41E51AD3A4EF00AC5003 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					14AA42011AD3A4F100AC5003 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 14AA41E51AD3A4EF00AC5003;
+					};
+				};
+			};
+			buildConfigurationList = 14AA41E11AD3A4EE00AC5003 /* Build configuration list for PBXProject "Seismicity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14AA41DD1AD3A4EE00AC5003;
+			productRefGroup = 14AA41E71AD3A4EF00AC5003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14AA41E51AD3A4EF00AC5003 /* Seismicity */,
+				14AA42011AD3A4F100AC5003 /* SeismicityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14AA41E41AD3A4EF00AC5003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AA41F81AD3A4F000AC5003 /* Main.storyboard in Resources */,
+				14AA41FD1AD3A4F100AC5003 /* LaunchScreen.xib in Resources */,
+				14AA41FA1AD3A4F100AC5003 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AA42001AD3A4F100AC5003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14AA41E21AD3A4EF00AC5003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AA41F21AD3A4F000AC5003 /* Seismicity.xcdatamodeld in Sources */,
+				14AA41EF1AD3A4EF00AC5003 /* AppDelegate.m in Sources */,
+				14AA41F51AD3A4F000AC5003 /* ViewController.m in Sources */,
+				14AA41EC1AD3A4EF00AC5003 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AA41FE1AD3A4F100AC5003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AA42091AD3A4F100AC5003 /* SeismicityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14AA42041AD3A4F100AC5003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14AA41E51AD3A4EF00AC5003 /* Seismicity */;
+			targetProxy = 14AA42031AD3A4F100AC5003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14AA41F61AD3A4F000AC5003 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14AA41F71AD3A4F000AC5003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14AA41FB1AD3A4F100AC5003 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14AA41FC1AD3A4F100AC5003 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14AA420A1AD3A4F200AC5003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14AA420B1AD3A4F200AC5003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14AA420D1AD3A4F200AC5003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Seismicity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14AA420E1AD3A4F200AC5003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Seismicity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14AA42101AD3A4F200AC5003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SeismicityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seismicity.app/Seismicity";
+			};
+			name = Debug;
+		};
+		14AA42111AD3A4F200AC5003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SeismicityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seismicity.app/Seismicity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14AA41E11AD3A4EE00AC5003 /* Build configuration list for PBXProject "Seismicity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AA420A1AD3A4F200AC5003 /* Debug */,
+				14AA420B1AD3A4F200AC5003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AA420C1AD3A4F200AC5003 /* Build configuration list for PBXNativeTarget "Seismicity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AA420D1AD3A4F200AC5003 /* Debug */,
+				14AA420E1AD3A4F200AC5003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14AA420F1AD3A4F200AC5003 /* Build configuration list for PBXNativeTarget "SeismicityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AA42101AD3A4F200AC5003 /* Debug */,
+				14AA42111AD3A4F200AC5003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14AA41F01AD3A4F000AC5003 /* Seismicity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14AA41F11AD3A4F000AC5003 /* Seismicity.xcdatamodel */,
+			);
+			currentVersion = 14AA41F11AD3A4F000AC5003 /* Seismicity.xcdatamodel */;
+			path = Seismicity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14AA41DE1AD3A4EE00AC5003 /* Project object */;
+}
