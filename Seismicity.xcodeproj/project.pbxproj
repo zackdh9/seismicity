@@ -7,14 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14464C2D1AEB94BB00251304 /* flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14464C2C1AEB94BB00251304 /* flag@2x.png */; };
+		14464C331AEBB8EB00251304 /* seismarker2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14464C321AEBB8EB00251304 /* seismarker2@2x.png */; };
+		14464C361AEBC39800251304 /* seismarkerRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14464C341AEBC39800251304 /* seismarkerRed@2x.png */; };
+		14464C371AEBC39800251304 /* seismarkerYellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14464C351AEBC39800251304 /* seismarkerYellow@2x.png */; };
 		14AA41EC1AD3A4EF00AC5003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA41EB1AD3A4EF00AC5003 /* main.m */; };
 		14AA41EF1AD3A4EF00AC5003 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA41EE1AD3A4EF00AC5003 /* AppDelegate.m */; };
 		14AA41F21AD3A4F000AC5003 /* Seismicity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14AA41F01AD3A4F000AC5003 /* Seismicity.xcdatamodeld */; };
-		14AA41F51AD3A4F000AC5003 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA41F41AD3A4F000AC5003 /* ViewController.m */; };
 		14AA41F81AD3A4F000AC5003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AA41F61AD3A4F000AC5003 /* Main.storyboard */; };
-		14AA41FA1AD3A4F100AC5003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AA41F91AD3A4F100AC5003 /* Images.xcassets */; };
 		14AA41FD1AD3A4F100AC5003 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14AA41FB1AD3A4F100AC5003 /* LaunchScreen.xib */; };
 		14AA42091AD3A4F100AC5003 /* SeismicityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA42081AD3A4F100AC5003 /* SeismicityTests.m */; };
+		14AA42151AD430F400AC5003 /* mainMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA42141AD430F400AC5003 /* mainMapViewController.m */; };
+		14AA42171AD43A1800AC5003 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42161AD43A1800AC5003 /* Accelerate.framework */; };
+		14AA42191AD43A2300AC5003 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42181AD43A2300AC5003 /* CoreGraphics.framework */; };
+		14AA421B1AD43A6B00AC5003 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA421A1AD43A6B00AC5003 /* MobileCoreServices.framework */; };
+		14AA421D1AD43A7300AC5003 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA421C1AD43A7300AC5003 /* CoreLocation.framework */; };
+		14AA421F1AD43A7D00AC5003 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA421E1AD43A7D00AC5003 /* SystemConfiguration.framework */; };
+		14AA42211AD43A8400AC5003 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42201AD43A8400AC5003 /* StoreKit.framework */; };
+		14AA42231AD43A8F00AC5003 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42221AD43A8F00AC5003 /* Security.framework */; };
+		14AA42251AD43A9A00AC5003 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42241AD43A9A00AC5003 /* QuartzCore.framework */; };
+		14AA42271AD43AA200AC5003 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42261AD43AA200AC5003 /* CFNetwork.framework */; };
+		14AA42291AD43AAB00AC5003 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42281AD43AAB00AC5003 /* AudioToolbox.framework */; };
+		14AA422B1AD43AB300AC5003 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA422A1AD43AB300AC5003 /* CoreData.framework */; };
+		14AA422D1AD43ABA00AC5003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA422C1AD43ABA00AC5003 /* UIKit.framework */; };
+		14AA422F1AD43AC000AC5003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA422E1AD43AC000AC5003 /* Foundation.framework */; };
+		14AA42311AD43AD800AC5003 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42301AD43AD800AC5003 /* libz.dylib */; };
+		14AA42331AD4407700AC5003 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42321AD4407700AC5003 /* AVFoundation.framework */; };
+		14AA42351AD4408300AC5003 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42341AD4408300AC5003 /* CoreText.framework */; };
+		14AA42371AD4409100AC5003 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42361AD4409100AC5003 /* GLKit.framework */; };
+		14AA42391AD4409800AC5003 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA42381AD4409800AC5003 /* ImageIO.framework */; };
+		14AA423B1AD440A500AC5003 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA423A1AD440A500AC5003 /* libc++.dylib */; };
+		14AA423D1AD440B200AC5003 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA423C1AD440B200AC5003 /* libicucore.dylib */; };
+		14AA423F1AD440BF00AC5003 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AA423E1AD440BF00AC5003 /* OpenGLES.framework */; };
+		14E3A10D1AEC202D006147A4 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E3A10C1AEC202D006147A4 /* DACircularProgressView.m */; };
+		14E3A1111AEC3B3E006147A4 /* stopwatch-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E3A1101AEC3B3E006147A4 /* stopwatch-50@2x.png */; };
+		14E3A1141AEC4B6C006147A4 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E3A1131AEC4B6C006147A4 /* ListViewController.m */; };
+		14E3A1161AEC56AA006147A4 /* linesButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E3A1151AEC56AA006147A4 /* linesButton@2x.png */; };
+		14E3A1181AEC77D5006147A4 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E3A1171AEC77D5006147A4 /* back@3x.png */; };
+		14E3A11A1AEC78C0006147A4 /* backArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E3A1191AEC78C0006147A4 /* backArrow@2x.png */; };
+		14E3A11D1AEC91F0006147A4 /* seisLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E3A11B1AEC91F0006147A4 /* seisLaunch.png */; };
+		14E3A11E1AEC91F0006147A4 /* seismicityIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E3A11C1AEC91F0006147A4 /* seismicityIcon@2x.png */; };
+		14E3A1221AEC96A6006147A4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E3A1211AEC96A6006147A4 /* Media.xcassets */; };
+		5C119CFCCD31DA033B9E8344 /* libPods-Seismicity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 987D0F414F41573922820180 /* libPods-Seismicity.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +62,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14464C2C1AEB94BB00251304 /* flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flag@2x.png"; path = "../../flag@2x.png"; sourceTree = "<group>"; };
+		14464C321AEBB8EB00251304 /* seismarker2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seismarker2@2x.png"; sourceTree = "<group>"; };
+		14464C341AEBC39800251304 /* seismarkerRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seismarkerRed@2x.png"; sourceTree = "<group>"; };
+		14464C351AEBC39800251304 /* seismarkerYellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seismarkerYellow@2x.png"; sourceTree = "<group>"; };
 		14AA41E61AD3A4EF00AC5003 /* Seismicity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seismicity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14AA41EA1AD3A4EF00AC5003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14AA41EB1AD3A4EF00AC5003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14AA41ED1AD3A4EF00AC5003 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14AA41EE1AD3A4EF00AC5003 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		14AA41F11AD3A4F000AC5003 /* Seismicity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seismicity.xcdatamodel; sourceTree = "<group>"; };
-		14AA41F31AD3A4F000AC5003 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14AA41F41AD3A4F000AC5003 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14AA41F71AD3A4F000AC5003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		14AA41F91AD3A4F100AC5003 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		14AA41FC1AD3A4F100AC5003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		14AA42021AD3A4F100AC5003 /* SeismicityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeismicityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14AA42071AD3A4F100AC5003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14AA42081AD3A4F100AC5003 /* SeismicityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeismicityTests.m; sourceTree = "<group>"; };
+		14AA42121AD4218600AC5003 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		14AA42131AD430F400AC5003 /* mainMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainMapViewController.h; sourceTree = "<group>"; };
+		14AA42141AD430F400AC5003 /* mainMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainMapViewController.m; sourceTree = "<group>"; };
+		14AA42161AD43A1800AC5003 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		14AA42181AD43A2300AC5003 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14AA421A1AD43A6B00AC5003 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		14AA421C1AD43A7300AC5003 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14AA421E1AD43A7D00AC5003 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		14AA42201AD43A8400AC5003 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		14AA42221AD43A8F00AC5003 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		14AA42241AD43A9A00AC5003 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14AA42261AD43AA200AC5003 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		14AA42281AD43AAB00AC5003 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		14AA422A1AD43AB300AC5003 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		14AA422C1AD43ABA00AC5003 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14AA422E1AD43AC000AC5003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14AA42301AD43AD800AC5003 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		14AA42321AD4407700AC5003 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		14AA42341AD4408300AC5003 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		14AA42361AD4409100AC5003 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		14AA42381AD4409800AC5003 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		14AA423A1AD440A500AC5003 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		14AA423C1AD440B200AC5003 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		14AA423E1AD440BF00AC5003 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		14E3A10B1AEC202D006147A4 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		14E3A10C1AEC202D006147A4 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		14E3A1101AEC3B3E006147A4 /* stopwatch-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stopwatch-50@2x.png"; sourceTree = "<group>"; };
+		14E3A1121AEC4B6C006147A4 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		14E3A1131AEC4B6C006147A4 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		14E3A1151AEC56AA006147A4 /* linesButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linesButton@2x.png"; sourceTree = "<group>"; };
+		14E3A1171AEC77D5006147A4 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		14E3A1191AEC78C0006147A4 /* backArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backArrow@2x.png"; sourceTree = "<group>"; };
+		14E3A11B1AEC91F0006147A4 /* seisLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seisLaunch.png; sourceTree = "<group>"; };
+		14E3A11C1AEC91F0006147A4 /* seismicityIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seismicityIcon@2x.png"; sourceTree = "<group>"; };
+		14E3A1211AEC96A6006147A4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6F1BF9455B1E82C5388BFA9C /* Pods-Seismicity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seismicity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seismicity/Pods-Seismicity.debug.xcconfig"; sourceTree = "<group>"; };
+		987D0F414F41573922820180 /* libPods-Seismicity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Seismicity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B964906A0D23921A07E37E51 /* Pods-Seismicity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seismicity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seismicity/Pods-Seismicity.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +122,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AA421F1AD43A7D00AC5003 /* SystemConfiguration.framework in Frameworks */,
+				14AA423F1AD440BF00AC5003 /* OpenGLES.framework in Frameworks */,
+				14AA423D1AD440B200AC5003 /* libicucore.dylib in Frameworks */,
+				14AA423B1AD440A500AC5003 /* libc++.dylib in Frameworks */,
+				14AA42391AD4409800AC5003 /* ImageIO.framework in Frameworks */,
+				14AA42371AD4409100AC5003 /* GLKit.framework in Frameworks */,
+				14AA42351AD4408300AC5003 /* CoreText.framework in Frameworks */,
+				14AA42331AD4407700AC5003 /* AVFoundation.framework in Frameworks */,
+				14AA42311AD43AD800AC5003 /* libz.dylib in Frameworks */,
+				14AA422F1AD43AC000AC5003 /* Foundation.framework in Frameworks */,
+				14AA422D1AD43ABA00AC5003 /* UIKit.framework in Frameworks */,
+				14AA422B1AD43AB300AC5003 /* CoreData.framework in Frameworks */,
+				14AA42291AD43AAB00AC5003 /* AudioToolbox.framework in Frameworks */,
+				14AA42271AD43AA200AC5003 /* CFNetwork.framework in Frameworks */,
+				14AA42251AD43A9A00AC5003 /* QuartzCore.framework in Frameworks */,
+				14AA42231AD43A8F00AC5003 /* Security.framework in Frameworks */,
+				14AA42211AD43A8400AC5003 /* StoreKit.framework in Frameworks */,
+				14AA421D1AD43A7300AC5003 /* CoreLocation.framework in Frameworks */,
+				14AA421B1AD43A6B00AC5003 /* MobileCoreServices.framework in Frameworks */,
+				14AA42191AD43A2300AC5003 /* CoreGraphics.framework in Frameworks */,
+				14AA42171AD43A1800AC5003 /* Accelerate.framework in Frameworks */,
+				5C119CFCCD31DA033B9E8344 /* libPods-Seismicity.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +163,8 @@
 				14AA41E81AD3A4EF00AC5003 /* Seismicity */,
 				14AA42051AD3A4F100AC5003 /* SeismicityTests */,
 				14AA41E71AD3A4EF00AC5003 /* Products */,
+				30F782739F361E9CAAE6B9D4 /* Pods */,
+				C5E36DD0BEE6C241C91B0CE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,10 +182,23 @@
 			children = (
 				14AA41ED1AD3A4EF00AC5003 /* AppDelegate.h */,
 				14AA41EE1AD3A4EF00AC5003 /* AppDelegate.m */,
-				14AA41F31AD3A4F000AC5003 /* ViewController.h */,
-				14AA41F41AD3A4F000AC5003 /* ViewController.m */,
+				14E3A1121AEC4B6C006147A4 /* ListViewController.h */,
+				14E3A1131AEC4B6C006147A4 /* ListViewController.m */,
+				14AA42131AD430F400AC5003 /* mainMapViewController.h */,
+				14AA42141AD430F400AC5003 /* mainMapViewController.m */,
+				14464C341AEBC39800251304 /* seismarkerRed@2x.png */,
+				14464C351AEBC39800251304 /* seismarkerYellow@2x.png */,
+				14464C321AEBB8EB00251304 /* seismarker2@2x.png */,
+				14E3A11B1AEC91F0006147A4 /* seisLaunch.png */,
+				14E3A11C1AEC91F0006147A4 /* seismicityIcon@2x.png */,
+				14E3A1171AEC77D5006147A4 /* back@3x.png */,
+				14E3A1191AEC78C0006147A4 /* backArrow@2x.png */,
+				14E3A1101AEC3B3E006147A4 /* stopwatch-50@2x.png */,
+				14E3A1211AEC96A6006147A4 /* Media.xcassets */,
+				14E3A1151AEC56AA006147A4 /* linesButton@2x.png */,
+				14AA42121AD4218600AC5003 /* PrefixHeader.pch */,
 				14AA41F61AD3A4F000AC5003 /* Main.storyboard */,
-				14AA41F91AD3A4F100AC5003 /* Images.xcassets */,
+				14464C2C1AEB94BB00251304 /* flag@2x.png */,
 				14AA41FB1AD3A4F100AC5003 /* LaunchScreen.xib */,
 				14AA41F01AD3A4F000AC5003 /* Seismicity.xcdatamodeld */,
 				14AA41E91AD3A4EF00AC5003 /* Supporting Files */,
@@ -99,6 +209,8 @@
 		14AA41E91AD3A4EF00AC5003 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14E3A10B1AEC202D006147A4 /* DACircularProgressView.h */,
+				14E3A10C1AEC202D006147A4 /* DACircularProgressView.m */,
 				14AA41EA1AD3A4EF00AC5003 /* Info.plist */,
 				14AA41EB1AD3A4EF00AC5003 /* main.m */,
 			);
@@ -122,6 +234,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		30F782739F361E9CAAE6B9D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F1BF9455B1E82C5388BFA9C /* Pods-Seismicity.debug.xcconfig */,
+				B964906A0D23921A07E37E51 /* Pods-Seismicity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5E36DD0BEE6C241C91B0CE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14AA423E1AD440BF00AC5003 /* OpenGLES.framework */,
+				14AA423C1AD440B200AC5003 /* libicucore.dylib */,
+				14AA423A1AD440A500AC5003 /* libc++.dylib */,
+				14AA42381AD4409800AC5003 /* ImageIO.framework */,
+				14AA42361AD4409100AC5003 /* GLKit.framework */,
+				14AA42341AD4408300AC5003 /* CoreText.framework */,
+				14AA42321AD4407700AC5003 /* AVFoundation.framework */,
+				14AA42301AD43AD800AC5003 /* libz.dylib */,
+				14AA422E1AD43AC000AC5003 /* Foundation.framework */,
+				14AA422C1AD43ABA00AC5003 /* UIKit.framework */,
+				14AA422A1AD43AB300AC5003 /* CoreData.framework */,
+				14AA42281AD43AAB00AC5003 /* AudioToolbox.framework */,
+				14AA42261AD43AA200AC5003 /* CFNetwork.framework */,
+				14AA42241AD43A9A00AC5003 /* QuartzCore.framework */,
+				14AA42221AD43A8F00AC5003 /* Security.framework */,
+				14AA42201AD43A8400AC5003 /* StoreKit.framework */,
+				14AA421E1AD43A7D00AC5003 /* SystemConfiguration.framework */,
+				14AA421C1AD43A7300AC5003 /* CoreLocation.framework */,
+				14AA421A1AD43A6B00AC5003 /* MobileCoreServices.framework */,
+				14AA42181AD43A2300AC5003 /* CoreGraphics.framework */,
+				14AA42161AD43A1800AC5003 /* Accelerate.framework */,
+				987D0F414F41573922820180 /* libPods-Seismicity.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14AA420C1AD3A4F200AC5003 /* Build configuration list for PBXNativeTarget "Seismicity" */;
 			buildPhases = (
+				D8B6312719367E80FA7B6FE1 /* Check Pods Manifest.lock */,
 				14AA41E21AD3A4EF00AC5003 /* Sources */,
 				14AA41E31AD3A4EF00AC5003 /* Frameworks */,
 				14AA41E41AD3A4EF00AC5003 /* Resources */,
+				8449B0BDC70334A9131F1395 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +354,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E3A11D1AEC91F0006147A4 /* seisLaunch.png in Resources */,
+				14E3A11A1AEC78C0006147A4 /* backArrow@2x.png in Resources */,
+				14E3A1221AEC96A6006147A4 /* Media.xcassets in Resources */,
+				14E3A1181AEC77D5006147A4 /* back@3x.png in Resources */,
+				14464C371AEBC39800251304 /* seismarkerYellow@2x.png in Resources */,
+				14E3A11E1AEC91F0006147A4 /* seismicityIcon@2x.png in Resources */,
 				14AA41F81AD3A4F000AC5003 /* Main.storyboard in Resources */,
 				14AA41FD1AD3A4F100AC5003 /* LaunchScreen.xib in Resources */,
-				14AA41FA1AD3A4F100AC5003 /* Images.xcassets in Resources */,
+				14E3A1161AEC56AA006147A4 /* linesButton@2x.png in Resources */,
+				14464C2D1AEB94BB00251304 /* flag@2x.png in Resources */,
+				14464C361AEBC39800251304 /* seismarkerRed@2x.png in Resources */,
+				14464C331AEBB8EB00251304 /* seismarker2@2x.png in Resources */,
+				14E3A1111AEC3B3E006147A4 /* stopwatch-50@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,14 +379,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8449B0BDC70334A9131F1395 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seismicity/Pods-Seismicity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B6312719367E80FA7B6FE1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14AA41E21AD3A4EF00AC5003 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AA42151AD430F400AC5003 /* mainMapViewController.m in Sources */,
+				14E3A10D1AEC202D006147A4 /* DACircularProgressView.m in Sources */,
+				14E3A1141AEC4B6C006147A4 /* ListViewController.m in Sources */,
 				14AA41F21AD3A4F000AC5003 /* Seismicity.xcdatamodeld in Sources */,
 				14AA41EF1AD3A4EF00AC5003 /* AppDelegate.m in Sources */,
-				14AA41F51AD3A4F000AC5003 /* ViewController.m in Sources */,
 				14AA41EC1AD3A4EF00AC5003 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +466,7 @@
 /* Begin XCBuildConfiguration section */
 		14AA420A1AD3A4F200AC5003 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1BF9455B1E82C5388BFA9C /* Pods-Seismicity.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -290,6 +488,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = Seismicity/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -311,6 +510,7 @@
 		};
 		14AA420B1AD3A4F200AC5003 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B964906A0D23921A07E37E51 /* Pods-Seismicity.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -331,6 +531,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = Seismicity/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -347,9 +548,11 @@
 		};
 		14AA420D1AD3A4F200AC5003 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1BF9455B1E82C5388BFA9C /* Pods-Seismicity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Seismicity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,9 +560,11 @@
 		};
 		14AA420E1AD3A4F200AC5003 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B964906A0D23921A07E37E51 /* Pods-Seismicity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Seismicity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -367,6 +572,7 @@
 		};
 		14AA42101AD3A4F200AC5003 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B964906A0D23921A07E37E51 /* Pods-Seismicity.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -386,6 +592,7 @@
 		};
 		14AA42111AD3A4F200AC5003 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B964906A0D23921A07E37E51 /* Pods-Seismicity.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -418,6 +625,7 @@
 				14AA420E1AD3A4F200AC5003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14AA420F1AD3A4F200AC5003 /* Build configuration list for PBXNativeTarget "SeismicityTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +634,7 @@
 				14AA42111AD3A4F200AC5003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

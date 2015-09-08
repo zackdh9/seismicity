@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  Seismicity
+//
+//  Created by zack on 4/7/15.
+//  Copyright (c) 2015 Zachary Hamblen. All rights reserved.
+//
+
+#ifndef Seismicity_PrefixHeader_pch
+#define Seismicity_PrefixHeader_pch
+#import <Google-Maps-iOS-SDK/GoogleMaps.h> 
+#import <QuartzCore/QuartzCore.h> 
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

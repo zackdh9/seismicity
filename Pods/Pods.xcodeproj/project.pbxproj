@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ECE71A19B3E29990E45F4F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EB07194A9F309AA1821ECF /* Foundation.framework */; };
+		D9D92CA0148E9EAC0F1F084D /* Pods-Seismicity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CAF43C09547BE3B22C093C /* Pods-Seismicity-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A9D08F822A1B986A2860BF4 /* Pods-Seismicity-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Seismicity-acknowledgements.plist"; sourceTree = "<group>"; };
+		11CC2D1D4B7611E86950286C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		1F99C4F2B7C091CA0F191FCB /* Pods-Seismicity-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Seismicity-resources.sh"; sourceTree = "<group>"; };
+		2219453D0391D94E38DD14B0 /* libPods-Seismicity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Seismicity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CCC90D866C7D3BFAC10BB7 /* Pods-Seismicity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Seismicity.release.xcconfig"; sourceTree = "<group>"; };
+		7FDBCCCBF40A2B0DB1C217BD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88FA1DD14799688EEDCE7C94 /* Pods-Seismicity-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Seismicity-environment.h"; sourceTree = "<group>"; };
+		9E202602A127173ED3EBAC5A /* Pods-Seismicity-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Seismicity-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7EB07194A9F309AA1821ECF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CADB7389C248BE7AD96EE7EA /* Pods-Seismicity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Seismicity.debug.xcconfig"; sourceTree = "<group>"; };
+		D2CAF43C09547BE3B22C093C /* Pods-Seismicity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Seismicity-dummy.m"; sourceTree = "<group>"; };
+		D65F7E214126A4103CECCA55 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C7DA575A2A4888FB6A6864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECE71A19B3E29990E45F4F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF50C67BAB676F93F24177D /* Google-Maps-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				AACF3E96A6B74CC0659AA3A1 /* Frameworks */,
+				56B5E7D7F9DD36A86E0C101F /* Resources */,
+			);
+			path = "Google-Maps-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		30C072E6DF043A0BE52D09BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F21B67BCBD873DD5889F860 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		563E1CA6D09F751B3D4CC439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FF50C67BAB676F93F24177D /* Google-Maps-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56B5E7D7F9DD36A86E0C101F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D65F7E214126A4103CECCA55 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6F21B67BCBD873DD5889F860 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7EB07194A9F309AA1821ECF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		83DCECF6EAEA59976DD764F0 /* Pods-Seismicity */ = {
+			isa = PBXGroup;
+			children = (
+				9E202602A127173ED3EBAC5A /* Pods-Seismicity-acknowledgements.markdown */,
+				0A9D08F822A1B986A2860BF4 /* Pods-Seismicity-acknowledgements.plist */,
+				D2CAF43C09547BE3B22C093C /* Pods-Seismicity-dummy.m */,
+				88FA1DD14799688EEDCE7C94 /* Pods-Seismicity-environment.h */,
+				1F99C4F2B7C091CA0F191FCB /* Pods-Seismicity-resources.sh */,
+				CADB7389C248BE7AD96EE7EA /* Pods-Seismicity.debug.xcconfig */,
+				54CCC90D866C7D3BFAC10BB7 /* Pods-Seismicity.release.xcconfig */,
+			);
+			name = "Pods-Seismicity";
+			path = "Target Support Files/Pods-Seismicity";
+			sourceTree = "<group>";
+		};
+		A3A13EC6C3A7B8D9DB62FD83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2219453D0391D94E38DD14B0 /* libPods-Seismicity.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AACF3E96A6B74CC0659AA3A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11CC2D1D4B7611E86950286C /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7DA2BB79409F235A7543488 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83DCECF6EAEA59976DD764F0 /* Pods-Seismicity */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FC7853C43B048CD54C00E758 = {
+			isa = PBXGroup;
+			children = (
+				7FDBCCCBF40A2B0DB1C217BD /* Podfile */,
+				30C072E6DF043A0BE52D09BA /* Frameworks */,
+				563E1CA6D09F751B3D4CC439 /* Pods */,
+				A3A13EC6C3A7B8D9DB62FD83 /* Products */,
+				C7DA2BB79409F235A7543488 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBA0D42F994946BFA4ADD9AD /* Pods-Seismicity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403A70282DDB7082A2AEDD04 /* Build configuration list for PBXNativeTarget "Pods-Seismicity" */;
+			buildPhases = (
+				6401F6E02B5E49BAD63754DD /* Sources */,
+				54C7DA575A2A4888FB6A6864 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Seismicity";
+			productName = "Pods-Seismicity";
+			productReference = 2219453D0391D94E38DD14B0 /* libPods-Seismicity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		824FFDC5506827AF0FB85AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = BDE698A60C341C7B3BAC417E /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC7853C43B048CD54C00E758;
+			productRefGroup = A3A13EC6C3A7B8D9DB62FD83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA0D42F994946BFA4ADD9AD /* Pods-Seismicity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6401F6E02B5E49BAD63754DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D92CA0148E9EAC0F1F084D /* Pods-Seismicity-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		31364C6438C870277658E9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36327E358DF263577FD43879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CCC90D866C7D3BFAC10BB7 /* Pods-Seismicity.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		65FB33D1CF010FB1B94232E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B44FE8E3F9D28EF2C7A72601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CADB7389C248BE7AD96EE7EA /* Pods-Seismicity.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403A70282DDB7082A2AEDD04 /* Build configuration list for PBXNativeTarget "Pods-Seismicity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B44FE8E3F9D28EF2C7A72601 /* Debug */,
+				36327E358DF263577FD43879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE698A60C341C7B3BAC417E /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FB33D1CF010FB1B94232E3 /* Debug */,
+				31364C6438C870277658E9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 824FFDC5506827AF0FB85AF8 /* Project object */;
+}
